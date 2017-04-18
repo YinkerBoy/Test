@@ -39,16 +39,11 @@ public class MainActivity extends BaseActivity {
 
 
         setContentView(R.layout.activity_main);
-//        activityRootView = findViewById(R.id.root_layout);
-//        button = (Button) findViewById(R.id.button);
         editText1 = (EditText) findViewById(R.id.editText1);
         screenHeight = this.getWindowManager().getDefaultDisplay().getHeight();
         keyHeight = screenHeight / 3;
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
             //透明状态栏
-//            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-////            透明导航栏
-//            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         }
         listenKeyboard();
     }
@@ -75,11 +70,6 @@ public class MainActivity extends BaseActivity {
                     }
                 });
     }
-
-
-
-
-
 
 
     @Override
@@ -126,25 +116,4 @@ public class MainActivity extends BaseActivity {
 
     }
 
-
-
-
-//
-//    @Override
-//    public void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
-////        if(oldBottom != 0 && bottom != 0 &&(oldBottom - bottom > keyHeight)){
-////
-////            Toast.makeText(MainActivity.this, "open", Toast.LENGTH_SHORT).show();
-////
-////        }else if(oldBottom != 0 && bottom != 0 &&(bottom - oldBottom > keyHeight)){
-////
-////            Toast.makeText(MainActivity.this, "close", Toast.LENGTH_SHORT).show();
-////
-////        }
-//        if (bottom > oldBottom){
-//            Toast.makeText(MainActivity.this, "close", Toast.LENGTH_SHORT).show();
-//        }else {
-//            Toast.makeText(MainActivity.this, "open", Toast.LENGTH_SHORT).show();
-//        }
-//    }
 }
