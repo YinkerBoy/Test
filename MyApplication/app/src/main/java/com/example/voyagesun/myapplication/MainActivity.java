@@ -97,16 +97,6 @@ public class MainActivity extends BaseActivity {
                 .getHeight() - rect.bottom;
         // 若rootInvisibleHeight高度大于100，则说明当前视图上移了，说明软键盘弹出了
         if (rootInvisibleHeight > 100) {
-//                    int[] location = new int[2];
-//                    // 获取scrollToView在窗体的坐标
-//                    button.getLocationInWindow(location);
-//                    // 计算root滚动高度，使scrollToView在可见区域的底部
-//                    final int srollHeight = (location[1] + button
-//                            .getHeight()) - rect.bottom;
-//                    //软键盘弹出来的时候
-////                    if (isOpen){
-//                    activityRootView.scrollTo(0, srollHeight);
-////                    }
             Toast.makeText(MainActivity.this, "open", Toast.LENGTH_SHORT).show();
         } else {
             // 软键盘没有弹出来的时候
