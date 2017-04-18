@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorNav">#1ab9af</color>
+    <color name="colorPrimary">@color/colorNav</color>
+    <color name="colorPrimaryDark">@color/colorNav</color>
+    <color name="colorAccent">@color/colorNav</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorNavTextViewNormal">#333333</color>
+    <color name="colorNavTextViewPress">#f5f5f5</color>
+    <color name="colorCheckPhone">#999999</color>
+    <color name="colorPhoneError">#e14123</color>
+    <color name="colorButtonNormal">#ff8200</color>
+    <color name="colorButtonPress">#f37c00</color>
+    <color name="colorRegisterLogPress">#17aca3</color>
+    <color name="colorMain">#f2f2f2</color>
+    <color name="colorDialog">#f1f1f1</color>
+    <color name="colorEditTextHint">#c2c2c2</color>
+    <color name="colorLogOutText">#666666</color>
+    <color name="colorAlphaWhite">#88ffffff</color>
+    <color name="colorBottomText">#5184bc</color>
+    <color name="colorLine">#e6e6e6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorIBorrowText">#929292</color>
+    <color name="colorPayMoney">#d12525</color>
+    <color name="colorPayMoneyed">#cccccc</color>
+</resources>

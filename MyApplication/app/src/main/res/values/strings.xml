@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bindCardTitle">绑定银行卡</string>
+    <string name="pleaseBindCard">请绑定您的常用储蓄卡，用于收款和还款</string>
+    <string name="cusName">姓名</string>
+    <string name="cusNameHint">请填写您的真实姓名</string>
+    <string name="idCard">身份证号</string>
+    <string name="idCardHint">请填写您的身份证号</string>
+    <string name="phoneCode">请填写您的手机号</string>
+    <string name="bankCard">储蓄卡号</string>
+    <string name="bankCardHint">请填写收款银行卡号</string>
+    <string name="bankNumber">预留手机号</string>
+    <string name="bankNumberHint">请填写您的银行预留手机号</string>
+    <string name="msgCode">短信验证码</string>
+    <string name="msgCodeHint">请填写短信验证码</string>
+    <string name="getMsgCode">点击获取</string>
+    <string name="binding">绑定</string>
+    <string name="lookImportBank">查看支持银行</string>
+    <string name="supportBank">支持银行</string>
+    <string name="hotLine">客服热线：</string>
+    <string name="hotLineNumber">400-089-0089</string>
+    <string name="errorNameTip">姓名输入有误，请重新输入</string>
+    <string name="errorBankNumberTip">银行卡输入有误，请重新输入</string>
+    <string name="errorIDNumberTip">身份证输入有误，请重新输入</string>
+    <string name="errorBankPhoneTip">银行预留手机号输入有误，请重新输入</string>
+    <string name="errorMsgCodeTip">验证码为6位数字，请重新输入</string>
+    <string name="protectSafe">顶级UCS安全技术，为您的隐私信息保驾护航</string>
+</resources>
