@@ -16,28 +16,15 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends BaseActivity {
-
-
     private View activityRootView;
-
     private int screenHeight = 0;
-
     private int keyHeight = 0;
-
-//    private Button button;
-
     private EditText editText1;
-
     private boolean init;
-
     private LinearLayout detailMainRL;
-
-      
 
     @Override
     public void initView(Bundle savedInstanceState) {
-
-
         setContentView(R.layout.activity_main);
         editText1 = (EditText) findViewById(R.id.editText1);
         screenHeight = this.getWindowManager().getDefaultDisplay().getHeight();
@@ -70,8 +57,7 @@ public class MainActivity extends BaseActivity {
                     }
                 });
     }
-
-
+    
     @Override
     protected void onResume() {
         super.onResume();
