@@ -32,7 +32,7 @@ public class MainActivity extends BaseActivity {
 
     private LinearLayout detailMainRL;
 
-
+      
 
     @Override
     public void initView(Bundle savedInstanceState) {
